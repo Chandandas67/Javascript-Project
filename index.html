@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<html>
+    <h1 id="main-head">QUIZ BY CHANDAN</h1>
+    <div id="outer-box">
+        <div id="main-question">
+            <h3>Q1.What's your point of view in this paper?</h3>
+            <div class="options">
+                <div><input type="radio" name="q1" value="a">good</div>
+                <div><input type="radio" name="q1" value="b">excellent</div>
+                <div><input type="radio" name="q1" value="c">outstanding</div>
+                <div><input type="radio" name="q1" value="d">bad</div>
+            </div>
+        </div>
+        <div id="main-question">
+            <h3>Q2.What's your point of view in this paper?</h3>
+            <div class="options">
+                <div><input type="radio" name="q2" value="a">good</div>
+                <div><input type="radio" name="q2" value="b">excellent</div>
+                <div><input type="radio" name="q2" value="c">outstanding</div>
+                <div><input type="radio" name="q2" value="d">bad</div>
+            </div>
+        </div>
+    <div id="submit_btn">
+        <button onclick="submitQuiz()">submit</button>
+    </div>
+    <div id="result">Result:<span id="res_print">0</span>/2</div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
